@@ -1,0 +1,23 @@
+.left-side-nav {
+  background-color:#eeeff3;
+  display: inline-block;
+}
+.right-side-nav {
+  background-color:#eeeff3;
+  display: inline-block;
+}
+.main-page {
+  background-color: #ffffff;
+  display: inline-block;
+}
+::ng-deep .mat-grid-list{
+  position: initial !important;
+}
+app-window mat-card .main-container{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 100%;
+}

@@ -1,0 +1,20 @@
+<div class="left-container">
+  <div class="side_nav_list">
+    <div class="left-sidebar">
+        <mat-selection-list [multiple]="false">
+          <mat-list-option class="item-list" [routerLink]="'/main/patients'">
+            <img width="40px" height="40px" style="margin-right: 30px" src="assets/icons/all_patients_unsel@3x.png">
+            <span class="side_nav_list_text">All Patients </span>
+          </mat-list-option>
+          <mat-list-option [routerLink]="'/main/appointments'">
+            <img width="40px" height="40px" style="margin-right: 30px" src="assets/icons/appointment_unsel@3x.png">
+            <span class="side_nav_list_text">Appointments</span>
+          </mat-list-option>
+          <mat-list-option [routerLink]="'/main/dashboard'">
+            <img width="40px" height="40px" style="margin-right: 30px" src="assets/icons/dashboard_unsel@3x.png">
+            <span class="side_nav_list_text">Dashboard</span>
+          </mat-list-option>
+        </mat-selection-list>
+    </div>
+  </div>
+</div>

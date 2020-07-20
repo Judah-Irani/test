@@ -1,0 +1,44 @@
+mat-form-field {
+  width: 100%;
+  margin: auto;
+}
+.example-form {
+  padding: 20px 100px;
+}
+.pat-list mat-list-option {
+  height: 6rem;
+}
+.pat-list{
+  padding: 0 6rem;
+}
+.pat-list mat-selection-list {
+  overflow: auto;
+}
+.pat-list mat-icon[md-list-icon] {
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+  order: 10;
+}
+.pat-list .mat-list-icon{
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+}
+.pat-text {
+  display: inline-flex;
+}
+.pat-text mat-icon {
+  margin-left: 575px;
+}
+.pat-list .pat-text .pat-name {
+  padding: 10px 100px 10px 10px;
+  text-overflow: initial;
+}
+.patScanIcon:hover {
+  cursor: pointer;
+}
+.container {
+  max-width: 60%;
+}

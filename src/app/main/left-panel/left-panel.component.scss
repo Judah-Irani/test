@@ -1,0 +1,12 @@
+.left-container {
+  float: left;
+  width: 25rem;
+  margin-top: 12rem;
+  position: fixed;
+}
+.left-container .side_nav_list .left-sidebar mat-list-option {
+  padding: 60px;
+}
+:host ::ng-deep .mat-list-text{
+  display: inline-block !important;
+}
